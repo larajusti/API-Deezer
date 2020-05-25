@@ -1,5 +1,4 @@
 <?php
-// ini_set('display_errors', 'on');
 
 if (isset($_POST['artist'])) {
     $search = filterInput($_POST['artist']);
@@ -44,7 +43,7 @@ function getArtistId(object $artist)
 
 function getTracks(object $trackList)
 {
-    echo '<h2 class="display-3 text-center">As mais ouvidas:</h2><br>';
+    echo '<h2 class="display-5 text-center">As mais ouvidas:</h2><br>';
     for ($i = 0; $i < 10; $i++) {
         echo "<li><a href=" . $trackList->data[$i]->preview . ">" . $trackList->data[$i]->title . "<a></li>";
     }
