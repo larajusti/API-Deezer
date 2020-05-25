@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <!-- <img class="mx-auto d-block" src="./images/Deezerlogo.png" height="80px" width="120px"> -->
+    <img class="float-right mr-5" src="./images/Deezerlogo.png" height="50px" width="80px">
     <div class="container pt-3">
         <div class="row">
             <form class="mt-5 input-group" action="." method="post">
@@ -32,15 +32,22 @@
     ?>
     <h1 class="text-center mt-4 display-4"><?php echo $artistName ?></h1>
 
-    <div class="container mt-5">
+    <div class="container mt-5 mb-5">
         <div class="row">
-            <img class="col-sm-5 rounded" src="<?php echo $artistImage ?>">
-            <ul class="col-sm-7 text-center list-group">
+            <img class="mr-5 float-left rounded" src="<?php echo $artistImage ?>">
+            <ul class="col-4 ml-5 float-right text-left list-group">
                 <?php if ($artistName == '') {
                     echo '';
                 } else {
                     echo getTracks($trackList);
                 }  ?></ul>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <footer>
+            </footer>
         </div>
     </div>
 

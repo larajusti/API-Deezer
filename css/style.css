@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+font-family: 'Roboto', sans-serif;
+}
+
 form {
     width: 60%;
     position: relative;
     left: 20%;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul, li {
+    text-align: left;
 }

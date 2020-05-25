@@ -1,4 +1,5 @@
 <?php
+// ini_set('display_errors', 'on');
 
 if (isset($_POST['artist'])) {
     $search = filterInput($_POST['artist']);
@@ -43,8 +44,8 @@ function getArtistId(object $artist)
 
 function getTracks(object $trackList)
 {
-    echo '<h2 class="display-5 text-center">As mais ouvidas:</h2><br>';
-    for ($i = 0; $i < 10; $i++) {
+    echo '<h2 class="display-5 text-left">As mais ouvidas:</h2><br>';
+    for ($i = 0; $i < 20; $i++) {
         echo "<li><a href=" . $trackList->data[$i]->preview . ">" . $trackList->data[$i]->title . "<a></li>";
     }
 }
@@ -63,7 +64,7 @@ function getArtist(string $search)
 
 function getTracklist(string $artistId)
 {
-    $url = "https://api.deezer.com/artist/{$artistId}/top?limit=10";
+    $url = "https://api.deezer.com/artist/{$artistId}/top?limit=20";
 
     return json_decode(file_get_contents($url));
 };
