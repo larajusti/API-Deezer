@@ -2,6 +2,13 @@
 
 *{
 font-family: 'Roboto', sans-serif;
+color: #fff;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(72, 185, 37), rgb(21, 23, 150));
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 form {
@@ -17,4 +24,16 @@ ul {
 
 ul, li {
     text-align: left;
+}
+
+ul, li a  {
+    color: #ffffff;
+}
+
+ul, li a:hover  {
+    color: rgb(230, 230, 230);
+}
+
+input {
+    color: #000;
 }

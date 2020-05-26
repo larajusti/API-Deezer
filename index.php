@@ -19,8 +19,8 @@
     <div class="container pt-3">
         <div class="row">
             <form class="mt-5 input-group" action="." method="post">
-                <input class="col-5 input" type="text" placeholder="Nome do artista..." name="artist" value="">
-                <input class="col-2 btn btn-dark btn-lg" type="submit" name="btn-submit" value="Buscar">
+                <input class="col-5 input mr-2" type="text" placeholder="Nome do artista..." name="artist" value="">
+                <input class="col-2 btn btn-light btn-lg" type="submit" name="btn-submit" value="Buscar">
             </form>
         </div>
     </div>
@@ -34,7 +34,7 @@
 
     <div class="container mt-5 mb-5">
         <div class="row">
-            <img class="mr-5 float-left rounded" src="<?php echo $artistImage ?>">
+            <img class="mr-5 float-left roundedrounded-circle" src="<?php echo $artistImage ?>">
             <ul class="col-4 ml-5 float-right text-left list-group">
                 <?php if ($artistName == '') {
                     echo '';
@@ -50,7 +50,7 @@
             </footer>
         </div>
     </div>
-
 </body>
+
 
 </html>
