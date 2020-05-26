@@ -34,7 +34,7 @@
 
     <div class="container mt-5 mb-5">
         <div class="row">
-            <img class="mr-5 float-left roundedrounded-circle" src="<?php echo $artistImage ?>">
+            <img class="mr-5 float-left rounded" src="<?php echo $artistImage ?>">
             <ul class="col-4 ml-5 float-right text-left list-group">
                 <?php if ($artistName == '') {
                     echo '';
