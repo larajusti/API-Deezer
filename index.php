@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+include_once('search.php');
+?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,33 +28,16 @@
             </form>
         </div>
     </div>
-
-    <?php
-    if (isset($_POST['artist'])) {
-        include_once('search.php');
-    }
-    ?>
-    <h1 class="text-center mt-4 display-4"><?php echo $artistName ?></h1>
+    <h1 class="text-center mt-5 display-4"><?php echo $artistName ?></h1>
 
     <div class="container mt-5 mb-5">
         <div class="row">
             <img class="mr-5 float-left rounded" src="<?php echo $artistImage ?>">
             <ul class="col-4 ml-5 float-right text-left list-group">
-                <?php if ($artistName == '') {
-                    echo '';
-                } else {
-                    echo getTracks($trackList);
-                }  ?></ul>
-        </div>
-    </div>
-
-    <div class="container-fluid mt-5">
-        <div class="row">
-            <footer>
-            </footer>
+                <?php echo $tracks ?>
+            </ul>
         </div>
     </div>
 </body>
-
 
 </html>

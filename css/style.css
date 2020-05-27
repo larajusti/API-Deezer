@@ -6,7 +6,8 @@ color: #fff;
 }
 
 body {
-    background-image: linear-gradient(to bottom right, rgb(72, 185, 37), rgb(21, 23, 150));
+    /* background-image: linear-gradient(to bottom right, rgb(168, 209, 155), rgb(45, 48, 189)); */
+    background-image: linear-gradient( 109.6deg,  rgb(87, 173, 243) 31.3%, rgb(77, 233, 129) 100.2% );
     background-repeat: no-repeat;
     min-height: 100vh;
 }

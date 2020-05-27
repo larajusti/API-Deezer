@@ -1,26 +1,40 @@
 <?php
-// ini_set('display_errors', 'on');
 
 if (isset($_POST['artist'])) {
     $search = filterInput($_POST['artist']);
     $artist = getArtist($search);
 
     if ($search == '') {
-
-        $artist = trackListEmpty();
-        $artistName = $artist->empty;
+        $artist = setValuesEmpty();
+        $artistName = 'Por favor, digite o nome de um artista.';
         $artistImage = $artist->empty;
         $trackList = $artist->empty;
+        $tracks = $artist->empty;
     }
+    elseif ($artist->data == []) {
+        $artist = setValuesEmpty();
+        $artistName = 'Não encontrado...';
+        $artistImage = $artist->empty;
+        $trackList = $artist->empty;
+        $tracks = $artist->empty;
+    }
+    
     else {
         $artistName = getArtistName($artist);
         $artistImage = getArtistImage($artist);
         $artistId = getArtistId($artist);
         $trackList = getTracklist($artistId);
+        $tracks = getTracks($trackList);
     }
+} else {
+    $artist = setValuesEmpty();
+    $artistName = $artist->empty;
+    $artistImage = $artist->empty;
+    $trackList = $artist->empty;
+    $tracks = $artist->empty;
 }
 
-function trackListEmpty()
+function setValuesEmpty()
 {
     return (object) [
         'empty' => ''
@@ -44,10 +58,11 @@ function getArtistId(object $artist)
 
 function getTracks(object $trackList)
 {
-    echo '<h2 class="display-5 text-left">As mais ouvidas:</h2><br>';
+    $tracks = '<h2 class="display-5 text-left">As mais ouvidas:</h2><br>';
     for ($i = 0; $i < 20; $i++) {
-        echo "<li><a href=" . $trackList->data[$i]->preview . ">" . $trackList->data[$i]->title . "<a></li>";
+        $tracks = $tracks . "<li><a href=" . $trackList->data[$i]->preview . ">" . $trackList->data[$i]->title . "<a></li>";
     }
+    return $tracks;
 }
 
 function filterInput(string $param): string
