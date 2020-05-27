@@ -1,11 +1,11 @@
-PROJETO FATEC - CONSUMO DE API
-
-Descrição:
-
-Instalação:<br>
+<h1>PROJETO FATEC - CONSUMO DE API</h1>
+<br>
+<h3>Descrição:</h3><br>
+<br>
+<h3>Instalação:</h3><br>
 Coloque o projeto dentro da pasta ‘htdocs’ do seu servidor Apache. Abra-o através de qualquer browser em localhost.<br>
 
-Documentação:<br>
+<h3>Documentação:</h3><br>
 getArtist(); <br>
 	Função: Envia requisição a API e atribui o retorno a uma variável.<br>
 	Parâmetros: String.<br>
@@ -42,12 +42,12 @@ filterInput ():<br>
 	Retorno: String.<br>
 <br>
 <br>
-Contribuidores;<br>
+<h3>Contribuidores;</h3><br>
 lucasjusti; marceloshire<br>
 <br>
-Licença;<br>
+<h3>Licença;</h3><br>
 <br>
-Contatos:<br>
+<h3>Contatos:</h3><br>
 Lucas91js@gmail.com<br>
 marcelofernando.barros@live.com<br>
 <br>
