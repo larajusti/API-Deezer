@@ -3,46 +3,53 @@ PROJETO FATEC - CONSUMO DE API
 Descrição:
 
 Instalação:<br>
-Coloque o projeto dentro da pasta ‘htdocs’ do seu servidor Apache. Abra-o através de qualquer browser em localhost.
+Coloque o projeto dentro da pasta ‘htdocs’ do seu servidor Apache. Abra-o através de qualquer browser em localhost.<br>
 
-Documentação:<>
-	getArtist(); 
-Função: Envia requisição a API e atribui o retorno a uma variável.
-Parâmetros: String.
-Retorno: Objeto JSON.
-	getArtistName(); 
-Função: Retorna o nome do artista.
-Parâmetros: Objeto.
-Retorno: String.
-getArtistImage():
-Função: Retorna uma imagem.
-Parâmetros: Objeto.
-Retorno: Objeto.
-getArtistId():
-Função: Retorna o Id do artista para realizar busca de músicas.
-Parâmetros: Objeto.
-Retorno: String.
-getTracklist ():
-Função: Envia requisição a API e atribui o retorno a uma variável.
-Parâmetros: String.
-Retorno: Objeto.
-getTracks ():
-Função: Retorna lista das músicas mais ouvidas.
-Parâmetros: String.
-Retorno: Objeto.
-filterInput ():
-Função: Substitui espaços em uma string por um caracter de escape._
-Parâmetros: String.
-Retorno: String.
-_
-Contribuidores;
-lucasjusti; marceloshire
-
-Licença;
-_
-Contatos:
-Lucas91js@gmail.com
-marcelofernando.barros@live.com
-
-
-https://developers.deezer.com/api
+Documentação:<br>
+getArtist(); <br>
+	Função: Envia requisição a API e atribui o retorno a uma variável.<br>
+	Parâmetros: String.<br>
+	Retorno: Objeto JSON.<br>
+<br>
+getArtistName();<br>
+	Função: Retorna o nome do artista.<br>
+	Parâmetros: Objeto.<br>
+	Retorno: String.<br>
+<br>
+getArtistImage():<br>
+	Função: Retorna uma imagem.<br>
+	Parâmetros: Objeto.<br>
+	Retorno: Objeto.<br>
+<br>
+getArtistId():<br>
+	Função: Retorna o Id do artista para realizar busca de músicas.<br>
+	Parâmetros: Objeto.<br>
+	Retorno: String.<br>
+<br>
+getTracklist ():<br>
+	Função: Envia requisição a API e atribui o retorno a uma variável.<br>
+	Parâmetros: String.<br>
+	Retorno: Objeto.<br>
+<br>
+getTracks ():<br>
+	Função: Retorna lista das músicas mais ouvidas.<br>
+	Parâmetros: String.<br>
+	Retorno: Objeto.<br>
+<br>
+filterInput ():<br>
+	Função: Substitui espaços em uma string por um caracter de escape.<br>
+	Parâmetros: String.<br>
+	Retorno: String.<br>
+<br>
+<br>
+Contribuidores;<br>
+lucasjusti; marceloshire<br>
+<br>
+Licença;<br>
+<br>
+Contatos:<br>
+Lucas91js@gmail.com<br>
+marcelofernando.barros@live.com<br>
+<br>
+<br>
+https://developers.deezer.com/api<br>
