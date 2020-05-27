@@ -1,8 +1,8 @@
-PROJETO FATEC - CONSUMO DE API
-
-Descrição: 
-
-Instalação: 
+PROJETO FATEC - CONSUMO DE API_
+_
+Descrição: _
+_
+Instalação: _
 Coloque o projeto dentro da pasta ‘htdocs’ do seu servidor Apache. Abra-o através de qualquer browser em localhost.
 
 Documentação:
@@ -28,21 +28,21 @@ Parâmetros: String.
 Retorno: Objeto.
 getTracks ():
 Função: Retorna lista das músicas mais ouvidas.
-Parâmetros: String.
-Retorno: Objeto.
-filterInput ():
-Função: Substitui espaços em uma string por um caracter de escape.
-Parâmetros: String.
-Retorno: String.
+Parâmetros: String._
+Retorno: Objeto._
+filterInput ():_
+Função: Substitui espaços em uma string por um caracter de escape._
+Parâmetros: String._
+Retorno: String._
+_
+Contribuidores;_
+lucasjusti; marceloshire_
 
-Contribuidores;
-lucasjusti; marceloshire
-
-Licença;
-
-Contatos:
-Lucas91js@gmail.com
-marcelofernando.barros@live.com
-
-
+Licença;_
+_
+Contatos:_
+Lucas91js@gmail.com_
+marcelofernando.barros@live.com_
+_
+_
 https://developers.deezer.com/api
