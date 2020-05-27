@@ -1,6 +1,8 @@
 <h1>PROJETO FATEC - CONSUMO DE API</h1>
 <br>
 <h3>Descrição:</h3><br>
+Trata-se de um projeto acadêmico para consumo de API's. A aplicação tem como finalidade realizar a busca de artistas e suas 20 músicas mais ouvidas do aplicativo Deezer.
+Ao concluir a busca a aplicação traz uma fotografia do artista ou seu logo e a suas 20 músicas mais ouvidas.
 <br>
 <h3>Instalação:</h3><br>
 Coloque o projeto dentro da pasta ‘htdocs’ do seu servidor Apache. Abra-o através de qualquer browser em localhost.<br>
@@ -46,6 +48,8 @@ filterInput ():<br>
 lucasjusti; marceloshire<br>
 <br>
 <h3>Licença;</h3><br>
+A aplicação é destinada a fins educacionais, sem fins lucrativos.
+Todos os direitos autorais pertencem a Deezer.com e aos artistas registrados na plataforma, desta forma, são proibidos o seu uso de imagem ou reprodução sem autorização e/ou para fins lucrativos de acordo com o artigo 5º da Constituição Federal.
 <br>
 <h3>Contatos:</h3><br>
 Lucas91js@gmail.com<br>
