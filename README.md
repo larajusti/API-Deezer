@@ -2,7 +2,6 @@
 <br>
 <h3>Descrição:</h3><br>
 Trata-se de um projeto acadêmico para consumo de API's. A aplicação tem como finalidade realizar a busca de artistas e suas 20 músicas mais ouvidas do aplicativo Deezer.
-Ao concluir a busca a aplicação traz uma fotografia do artista ou seu logo e a suas 20 músicas mais ouvidas.
 
 <h3>Documentação:</h3><br>
 getArtist(); <br>
